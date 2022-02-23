@@ -1,0 +1,16 @@
+#include<stdio.h>
+#define SIZE 3
+int main( )
+{
+    int arr[SIZE];
+    printf("\n Enter data in array:\n");
+    for(int i=0;i< SIZE;i++)
+    {
+        printf(" %d: ",i+1);
+        scanf("%d",(arr+i));
+    }
+    printf("\n Data in array is:");
+    for(int i=0;i< SIZE;i++)
+        printf("\n %d",arr[i]);
+    return 0;
+}

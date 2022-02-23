@@ -1,0 +1,5 @@
+#include<stdio.h>
+void main(){
+enum days{sun,mon,tue,wed,thu,fri,sat};
+printf("%d%d",sun,mon,fri);
+}

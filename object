@@ -1,0 +1,11 @@
+
+#include <stdio.h>
+#define DATE 30
+int main()
+{
+    printf("Lockdown will be extended"
+           " upto %d-feb-2022",
+           DATE);
+    return 0;
+}
+
